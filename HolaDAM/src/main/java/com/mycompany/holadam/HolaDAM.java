@@ -17,5 +17,6 @@ public class HolaDAM {
         Scanner sc = new Scanner(System.in); //Cambio del segundo programador
         System.out.println("Hello DAM");
         System.out.println("Numero entero: " + sc.nextInt());
+        System.out.println("Vuelvo a modificar el archivo java");
     }
 }
