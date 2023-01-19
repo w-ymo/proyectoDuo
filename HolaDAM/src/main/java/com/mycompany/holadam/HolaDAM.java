@@ -5,6 +5,8 @@
 
 package com.mycompany.holadam;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Maste
@@ -12,7 +14,9 @@ package com.mycompany.holadam;
 public class HolaDAM {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); //Cambio del segundo programador
         System.out.println("Hello DAM");
+        System.out.println("Numero entero: " + sc.nextInt());
         System.out.println("Vuelvo a modificar el archivo java");
         System.out.println("Estoy en request23");
         System.out.println("He trabajado aqui");
